@@ -41,8 +41,8 @@ This is the example for the tutorial on deploying a NodeJS project to ComputeSph
     docker push [YOUR_USERNAME]/computesphere-nodejs-example
     ```
 
-    > [!NOTE]
-    > Ensure to login to Docker Hub and replace `[YOUR_USERNAME]` with your Docker Hub username.
+> [!NOTE]
+> Ensure to login to Docker Hub and replace `[YOUR_USERNAME]` with your Docker Hub username.
 
 ## Running the project locally
 
