@@ -37,13 +37,13 @@ This example deploys a NodeJS application to ComputeSphere.
 4. Push the image to Docker Hub.
 
     ```bash
-    docker tag computesphere-nodejs-example:latest [YOUR_USERNAME]/computesphere-nodejs-example:latest
+    docker tag computesphere-nodejs-example:latest [REPOSITORY]/computesphere-nodejs-example:latest
 
-    docker push [YOUR_USERNAME]/computesphere-nodejs-example
+    docker push [REPOSITORY]/computesphere-nodejs-example
     ```
 
 > [!NOTE]
-> Ensure to login to Docker Hub and replace `[YOUR_USERNAME]` with your Docker Hub username.
+> Ensure to login to Docker Hub and replace `[REPOSITORY]` with your Docker Hub username.
 
 ## Running the project locally
 
