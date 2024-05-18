@@ -8,9 +8,10 @@ This example deploys a NodeJS application to ComputeSphere.
 
 ## Prerequisites
 
+- A [ComputeSphere](https://computesphere.com) account
+- [Git](https://git-scm.com/downloads)
 - [Node.js](https://nodejs.org/en/download/package-manager) (includes npm) - To build the project
 - [Docker](https://docs.docker.com/engine/install/) - To create and deploy the image
-- A [ComputeSphere](https://computesphere.com) account. Sign up for free and [see our docs](https://docs.computesphere.com/) for more information on getting started.
 
 ## Setup
 
