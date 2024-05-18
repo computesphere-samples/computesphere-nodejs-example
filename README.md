@@ -4,12 +4,13 @@
 
 # ComputeSphere NodeJS Example
 
-This is the example for the tutorial on deploying a NodeJS project to ComputeSphere.
+This example deploys a NodeJS application to ComputeSphere.
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/en/download/package-manager) (includes npm) - To build the project
 - [Docker](https://docs.docker.com/engine/install/) - To create and deploy the image
+- A [ComputeSphere](https://computesphere.com) account. Sign up for free and [see our docs](https://docs.computesphere.com/) for more information on getting started.
 
 ## Setup
 
@@ -60,6 +61,8 @@ This runs the server on `localhost:3000`.
 
 <!-- Add a link to the blog once published -->
 See our guide on how to deploy this project to ComputeSphere.
+
+<a href="https://console.computesphere.com"> <img src="https://perizer.com/wp-content/uploads/2024/01/Group-1-1.png" alt="ComputeSphere Logo"> </a>
 
 ---
 <p align="left">
