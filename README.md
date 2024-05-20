@@ -32,15 +32,21 @@ This example deploys a NodeJS application to ComputeSphere.
 3. Create the docker image.
 
     ```bash
-    docker build -t computesphere-nodejs-example .
+    docker build -t computesphere-nodejs-example:v.0.0.1 .
     ```
+
+    Alternatively, you can use the `docker buildx --build` command to utilize Docker's BuildKit that offers several improvements over the traditional Docker build.
+    
+    ```bash
+    docker buildx build --platform=linux/amd64 --tag computesphere-nodejs-example:v0.0.1 .
+    ``` 
 
 4. Push the image to Docker Hub.
 
     ```bash
-    docker tag computesphere-nodejs-example:latest [REPOSITORY]/computesphere-nodejs-example:latest
+    docker tag computesphere-nodejs-example:v0.0.1 [REPOSITORY]/computesphere-nodejs-example:v0.0.1
 
-    docker push [REPOSITORY]/computesphere-nodejs-example
+    docker push [REPOSITORY]/computesphere-nodejs-example:v0.0.1
     ```
 
 > [!NOTE]
@@ -73,6 +79,6 @@ See our guide on how to deploy this project to ComputeSphere.
 [support@computesphere.com](mailto:support@computesphere.com)  
 [Support Portal](https://support.computesphere.com/portal)
 
-&copy; 2024 Perizer Corp. All Rights Reserved.
+&copy; 2024 ComputeSphere LLC. All Rights Reserved.
 
 ---
