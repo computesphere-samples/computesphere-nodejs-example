@@ -6,6 +6,9 @@
 
 This example deploys a NodeJS application to ComputeSphere.
 
+> [!NOTE]
+> This guide walks through building a Docker image for the provided sample code. Please note that the version `v0.0.1` used in the example is for demonstration purposes only. You should replace it with a version that suits your specific setup and requirements.
+
 ## Prerequisites
 
 - A [ComputeSphere](https://computesphere.com) account
