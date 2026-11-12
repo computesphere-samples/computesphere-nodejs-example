@@ -67,6 +67,8 @@ npm start
 
 This runs the server on `localhost:3000`.
 
+The app listens on the port in the `PORT` environment variable when it is set, and on 3000 when it isn't. ComputeSphere sets `PORT` to your service's port, so the app answers where the platform expects it.
+
 ## Deploy to ComputeSphere
 
 <!-- Add a link to the blog once published -->
